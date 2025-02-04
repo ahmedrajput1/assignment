@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cotainer">
+        <nav class="navbar">
+            <div id="image">
+                <a href="#"> <img class="img" src="/image/olx.png" alt="olx"></a> <a href="#"> <img class="img"
+                        src="/image/car.jpeg" alt="car"></a><a href="#"> <img class="img" src="/image/property.jpeg"
+                        alt="property"></a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="search here..."><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="filter-group">
+                <h4>Location</h4>
+                <select>
+                    <option value="all">All Locations</option>
+                    <option value="city1">City 1</option>
+                    <option value="city2">City 2</option>
+                </select>
+            </div>
+            <li><a href="#"> <button class="login-btn" id="loginBtn">Login</button></a></li>
+        </nav>
+        <br>
+        <div class="login-modal" id="loginModal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        <section>
+            <div class="content">
+                <div class="pic">
+                    <a href="#"> <img src="/image/pic.jpeg" alt="pic" class="add"> </a> <a href="#"> <img
+                            src="/image/pic-2.jpeg" alt="pic" class="ad"></a>
+                </div>
+                <div class="box">
+                    <a href="#"> <img src="/image/card1.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card2.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card3.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card4.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card5.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card6.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card7.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card8.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card9.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card10.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card11.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card12.png" alt="card1" class="round"></a>
+                    <a href="#"> <img src="/image/card13.png" alt="card1" class="round"></a>
+                </div>
+                <div class="heading">
+                    <h1>Mobile Phone</h1>
+                    <a href="#" class="view">view more ></a>
+                </div>
+                <div class="product">
+                    <div class="product-card">
+                        <img src="/image/mobile phone1.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 9,2000</h2>
+                        <p class="para">apple iphone 11 pta approved</p>
+                        <p class="product-title"> 5 days ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/google pixel.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 64,999</h2>
+                        <p class="para">google pixel All Modesi samsung all flagship devices available</p>
+                        <p class="product-title"> 2 months ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/realmegt5.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 110,000</h2>
+                        <p class="para">realme GT5 Brand New kits Gaming+ camera phone 120FPS PUBG</p>
+                        <p class="product-title"> 4 days ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/i phone13pro.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 218,000</h2>
+                        <p class="para">iphone 13 pro 256gb iphone 12 pro Max 256gb 100% bh pta approved </p>
+                        <p class="product-title"> 1 week ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/mobile phone1.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 9,2000</h2>
+                        <p class="para">apple iphone 11 pta approved</p>
+                        <p class="product-title"> 5 days ago</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Cars</h1>
+                    <a href="#" class="view">view more ></a>
+                </div>
+                <div class="product">
+                    <div class="product-card">
+                        <img src="/image/audietron.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 19,500,000</h2>
+                        <p class="para">Audi E-Tron 50 quatrro 230 kW 2020</p>
+                        <p class="product-title"> 3 days ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/toyata.jpg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 4,400,000</h2>
+                        <p class="para">Toyota Corolla GLI 2017 Bumper to Bumper juniven</p>
+                        <p class="product-title"> 1 week ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/bolan.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 750,000</h2>
+                        <p class="para">Suzuki Bolan 2004</p>
+                        <p class="product-title"> 5 days ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/prius.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 4,790,000</h2>
+                        <p class="para">Toyota prius G Edition Leather Selection 1.8 2013 Model</p>
+                        <p class="product-title"> 1 week ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/civic1.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 4,400,000</h2>
+                        <p class="para">Honda Civic Oriel 2017</p>
+                        <p class="product-title"> 4 days ago</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Bikes & Motorcycle</h1>
+                    <a href="#" class="view">view more ></a>
+                </div>
+                <div class="product">
+                    <div class="product-card">
+                        <img src="/image/honda.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 183,000</h2>
+                        <p class="para">honda</p>
+                        <p class="product-title"> 2 days ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/yamaha.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 320,000</h2>
+                        <p class="para">Yamaha YB 125z DX</p>
+                        <p class="product-title"> 24 Hours ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/scooty.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 85,000</h2>
+                        <p class="para">electric scooty,electric bike,electric rechargable scooty</p>
+                        <p class="product-title"> 5 days ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/110.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 350,000</h2>
+                        <p class="para">Suzuki GD110s 2024</p>
+                        <p class="product-title"> 2 days ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/infinity.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 240,000</h2>
+                        <p class="para">Hi speed infinity 150 bike model 2020</p>
+                        <p class="product-title"> 1 days ago</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Video-Audios</h1>
+                    <a href="#" class="view">view more ></a>
+                </div>
+                <div class="product">
+                    <div class="product-card">
+                        <img src="/image/home.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 30,000</h2>
+                        <p class="para">multi media projector all variety New & use for home Theater for sale</p>
+                        <p class="product-title"> 4 weeks ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/pioneer.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 45,000</h2>
+                        <p class="para">pioneer GM-d8601</p>
+                        <p class="product-title">1 hours ago </p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/jbl.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 10,000</h2>
+                        <p class="para">JBL dual speaker with Hi-fi sound</p>
+                        <p class="product-title"> 40 min ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/youtube.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 33,000</h2>
+                        <p class="para">New boxed Packed Micekd for YouTube</p>
+                        <p class="product-title"> 5 hours ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/bose.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 200,000</h2>
+                        <p class="para">Bose Amplifier FreeSpace IZA 250-LZ</p>
+                        <p class="product-title"> 2 week ago</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Land & Plots</h1>
+                    <a href="#" class="view">view more ></a>
+                </div>
+                <div class="product">
+                    <div class="product-card">
+                        <img src="/image/kanal.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 20,000,000</h2>
+                        <p class="para">200 kanal agriculture land for sale in jhulam road district chakwal</p>
+                        <p class="product-title"> 2 weeks ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/wapda.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 7,100,000</h2>
+                        <p class="para">5 marla plot for sale in WAPDA city</p>
+                        <p class="product-title">2 week ago </p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/sale.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 125,000,000</h2>
+                        <p class="para">plot for sale</p>
+                        <p class="product-title"> 2 week ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/malir.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 4,000,000</h2>
+                        <p class="para">Malir Town Residence Phase Town</p>
+                        <p class="product-title"> 2 week ago</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/image/dha.jpeg" alt="Product Image" class="product-image">
+                        <h2 class="product-price">Rs 2,200,000</h2>
+                        <p class="para">5 marla Plot file for sale in DHA gujranwala</p>
+                        <p class="product-title"> 2 week ago</p>
+                    </div>
+                </div>
+                <div><a href="#"><img src="/image/5505526496128688689.jpeg" alt="" class="img-last"></a>
+                    <a href="#"><img src="/image/.png" alt="" class="img-last"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="main-footer">
+                <div id="foot">
+                    <p><b>POPULAR CATEGORIES</b></p> <br>
+                    <a href="#">
+                        <p>cars</p><br>
+                    </a>
+                    <a href="#">
+                        <p>flat for rents</p><br>
+                    </a>
+                    <a href="#">
+                        <p>mobile phones</p><br>
+                    </a>
+                    <a href="#">
+                        <p>jobs</p><br>
+                    </a>
+                </div> <br>
+                <div id="second">
+                    <p><b>TRENDING SEARCHES</b></p> <br>
+                    <a href="#">
+                        <p>Bikes</p><br>
+                    </a>
+                    <a href="#">
+                        <p>Watches</p><br>
+                    </a>
+                    <a href="#">
+                        <p>Books</p><br>
+                    </a>
+                    <a href="#">
+                        <p>Dogs</p><br>
+                    </a>
+                </div> <br>
+                <div id="down">
+                    <p><b>ABOUT US</b></p> <br>
+                    <a href="#">
+                        <p>About Dubizzle Group</p> <br>
+                    </a>
+                    <a href="#">
+                        <p>OLX Blog</p><br>
+                    </a>
+                    <a href="#">
+                        <p>Contact Us</p><br>
+                    </a>
+                    <a href="#">
+                        <p>OLX for Businesses</p><br>
+                    </a>
+                </div> <br>
+                <div id="las">
+                    <p><b>OLX</b></p> <br>
+                    <a href="#">
+                        <p>Help</p><br>
+                    </a>
+                    <a href="#">
+                        <p>Sitemap</p><br>
+                    </a>
+                    <a href="#">
+                        <p>Terms of use</p><br>
+                    </a>
+                    <a href="#">
+                        <p>Privacy Policy/<p><br>
+                    </a>
+                </div>
+                <div class="follow">
+                    <p><b>FOLLOW US</b></p>
+                    <a href="#">
+                        <p><i class="fa-brands fa-twitter"></i></p>
+                    </a>
+                    <a href="#">
+                        <p><i class="fa-brands fa-facebook"></i></p>
+                    </a>
+                    <a href="#">
+                        <p><i class="fa-brands fa-instagram"></i></p>
+                    </a>
+                </div>
+                <div class="play">
+                    <a href="https://apps.apple.com/pk/app/olx-pakistan-online-shopping/id1551315538"> <img
+                            src="/image/play andg.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const loginBtn = document.getElementById('loginBtn');
+            const loginModal = document.getElementById('loginModal');
+            const closeModal = document.getElementById('closeModal');
+            const loginForm = document.getElementById('loginForm');
+
+            // Open modal
+            loginBtn.addEventListener('click', () => {
+                loginModal.style.display = 'flex';
+            });
+
+            // Close modal
+            closeModal.addEventListener('click', () => {
+                loginModal.style.display = 'none';
+            });
+
+            // Close modal on clicking outside
+            window.addEventListener('click', (e) => {
+                if (e.target === loginModal) {
+                    loginModal.style.display = 'none';
+                }
+            });
+
+            // Handle form submission
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault(); // Prevent default form submission
+
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+
+                console.log(`Username: ${username}, Password: ${password}`);
+                alert('Login submitted!');
+
+                // Close the modal after submission
+                loginModal.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+
+</html>
